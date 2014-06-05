@@ -1,0 +1,257 @@
+###############################################################################
+#
+# IAR ELF Linker V7.10.3.6832/W32 for ARM                 28/May/2014  18:20:30
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\bin\iar\leds_example.out
+#    Map file     =  
+#        C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\List\leds_example.map
+#    Command line =  
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\adc.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\bsp.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\bsp_led.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\cpu.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\debug.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\flash.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\gpio.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\gptimer.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\i2c.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\interrupt.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\ioc.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\leds_example.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\sleepmode.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\ssi.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\startup_iar.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\sys_ctrl.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\systick.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\uart.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\udma.o"
+#        "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj\watchdog.o"
+#        -o "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\bin\iar\leds_example.out"
+#        --map "C:\Texas Instruments\Z-Stack Home
+#        1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\List\leds_example.map"
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.0\arm\config\linker\TexasInstruments\cx2538xf53.icf" --semihosting
+#        --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00200000 { ro section .intvec };
+"A2":  place at start of [0x0027ffd4-0x0027ffdf] { ro section .flashcca };
+"P1":  place in [from 0x00200000 to 0x0027ffd3] { ro };
+"A4":  place at end of [0x20004000-0x20007fff] { block CSTACK };
+
+  Section    Kind        Address   Size  Object
+  -------    ----        -------   ----  ------
+"A1":                             0x100
+  .intvec    const    0x00200000  0x100  startup_iar.o [1]
+                    - 0x00200100  0x100
+
+"P1":                             0x4f4
+  .text      ro code  0x00200100  0x134  gpio.o [1]
+  .text      ro code  0x00200234    0x2  debug.o [1]
+  .text      ro code  0x00200238  0x108  ioc.o [1]
+  .rodata    const    0x00200340   0x78  gpio.o [1]
+  .rodata    const    0x002003b8   0x78  ioc.o [1]
+  .text      ro code  0x00200430   0x70  bsp_led.o [1]
+  .text      ro code  0x002004a0   0x44  leds_example.o [1]
+  .text      ro code  0x002004e4   0x3e  startup_iar.o [1]
+  .text      ro code  0x00200522    0xc  cstartup_M.o [4]
+  .text      ro code  0x00200530   0x1a  cmain.o [4]
+  .text      ro code  0x0020054a    0x4  low_level_init.o [3]
+  .text      ro code  0x0020054e    0x4  exit.o [3]
+  .text      ro code  0x00200554    0xa  cexit.o [4]
+  .text      ro code  0x00200560   0x14  exit.o [5]
+  .rodata    const    0x00200574   0x20  ioc.o [1]
+  .rodata    const    0x00200594   0x20  ioc.o [1]
+  .rodata    const    0x002005b4   0x20  ioc.o [1]
+  .rodata    const    0x002005d4   0x20  ioc.o [1]
+                    - 0x002005f4  0x4f4
+
+"A2":                               0xc
+  .flashcca  const    0x0027ffd4    0xc  startup_iar.o [1]
+                    - 0x0027ffe0    0xc
+
+"A4":                             0x800
+  CSTACK              0x20007800  0x800  <Block>
+    .stack   uninit   0x20007800    0x4  startup_iar.o [1]
+    CSTACK   uninit   0x20007804  0x7fc  <Block tail>
+                    - 0x20008000  0x800
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+C:\Texas Instruments\Z-Stack Home 1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj: [1]
+    bsp_led.o             112
+    debug.o                 2
+    gpio.o                308      120
+    ioc.o                 264      248
+    leds_example.o         68
+    startup_iar.o          62      268        4
+    -------------------------------------------
+    Total:                816      636        4
+
+command line: [2]
+    -------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                26
+    cstartup_M.o           12
+    -------------------------------------------
+    Total:                 48
+
+shb_l.a: [5]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    8
+    Linker created                        2 044
+-----------------------------------------------
+    Grand Total:          900      636    2 048
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address   Size  Type      Object
+-----                     -------   ----  ----      ------
+?main                  0x00200531         Code  Gb  cmain.o [4]
+ADCIntHandler          0x00200521    0x2  Code  Wk  startup_iar.o [1]
+AESIntHandler          0x00200521    0x2  Code  Wk  startup_iar.o [1]
+CSTACK$$Base           0x20007800          --   Gb  - Linker created -
+CSTACK$$Limit          0x20008000          --   Gb  - Linker created -
+CompIntHandler         0x00200521    0x2  Code  Wk  startup_iar.o [1]
+FaultISR               0x0020051f    0x2  Code  Lc  startup_iar.o [1]
+FlashIntHandler        0x00200521    0x2  Code  Wk  startup_iar.o [1]
+GPIOAIntHandler        0x00200521    0x2  Code  Wk  startup_iar.o [1]
+GPIOBIntHandler        0x00200521    0x2  Code  Wk  startup_iar.o [1]
+GPIOBaseValid          0x00200101   0x2a  Code  Lc  gpio.o [1]
+GPIOCIntHandler        0x00200521    0x2  Code  Wk  startup_iar.o [1]
+GPIODIntHandler        0x00200521    0x2  Code  Wk  startup_iar.o [1]
+GPIODirModeSet         0x0020012b   0x74  Code  Gb  gpio.o [1]
+GPIOPinRead            0x0020019f   0x24  Code  Gb  gpio.o [1]
+GPIOPinTypeGPIOOutput  0x002001eb   0x36  Code  Gb  gpio.o [1]
+GPIOPinWrite           0x002001c3   0x28  Code  Gb  gpio.o [1]
+I2CIntHandler          0x00200521    0x2  Code  Wk  startup_iar.o [1]
+IOCPadConfigSet        0x00200239   0xda  Code  Gb  ioc.o [1]
+IcePickIntHandler      0x00200521    0x2  Code  Wk  startup_iar.o [1]
+IntDefaultHandler      0x00200521    0x2  Code  Lc  startup_iar.o [1]
+MacTimerIntHandler     0x00200521    0x2  Code  Wk  startup_iar.o [1]
+NmiISR                 0x0020051d    0x2  Code  Lc  startup_iar.o [1]
+PKAIntHandler          0x00200521    0x2  Code  Wk  startup_iar.o [1]
+PendSVIntHandler       0x00200521    0x2  Code  Wk  startup_iar.o [1]
+RFCoreErrIntHandler    0x00200521    0x2  Code  Wk  startup_iar.o [1]
+RFCoreTxIntHandler     0x00200521    0x2  Code  Wk  startup_iar.o [1]
+Region$$Table$$Base    0x00000000          --   Gb  - Linker created -
+Region$$Table$$Limit   0x00000000          --   Gb  - Linker created -
+ResetISR               0x002004e5   0x28  Code  Lc  startup_iar.o [1]
+SSI0IntHandler         0x00200521    0x2  Code  Wk  startup_iar.o [1]
+SSI1IntHandler         0x00200521    0x2  Code  Wk  startup_iar.o [1]
+STACK_TOP {Abs}        0x20008000          --   Gb  command line/config [2]
+SleepModeIntHandler    0x00200521    0x2  Code  Wk  startup_iar.o [1]
+SysTickIntHandler      0x00200521    0x2  Code  Wk  startup_iar.o [1]
+Timer0AIntHandler      0x00200521    0x2  Code  Wk  startup_iar.o [1]
+Timer0BIntHandler      0x00200521    0x2  Code  Wk  startup_iar.o [1]
+Timer1AIntHandler      0x00200521    0x2  Code  Wk  startup_iar.o [1]
+Timer1BIntHandler      0x00200521    0x2  Code  Wk  startup_iar.o [1]
+Timer2AIntHandler      0x00200521    0x2  Code  Wk  startup_iar.o [1]
+Timer2BIntHandler      0x00200521    0x2  Code  Wk  startup_iar.o [1]
+Timer3AIntHandler      0x00200521    0x2  Code  Wk  startup_iar.o [1]
+Timer3BIntHandler      0x00200521    0x2  Code  Wk  startup_iar.o [1]
+UART0IntHandler        0x00200521    0x2  Code  Wk  startup_iar.o [1]
+UART1IntHandler        0x00200521    0x2  Code  Wk  startup_iar.o [1]
+USBIntHandler          0x00200521    0x2  Code  Wk  startup_iar.o [1]
+WatchdogIntHandler     0x00200521    0x2  Code  Wk  startup_iar.o [1]
+__cca                  0x0027ffd4    0xc  Data  Gb  startup_iar.o [1]
+__cmain                0x00200531         Code  Gb  cmain.o [4]
+__error__              0x00200235    0x2  Code  Gb  debug.o [1]
+__exit                 0x00200561   0x14  Code  Gb  exit.o [5]
+__iar_program_start    0x00200523         Code  Gb  cstartup_M.o [4]
+__low_level_init       0x0020054b    0x4  Code  Gb  low_level_init.o [3]
+__vector_table         0x00200000  0x100  Data  Gb  startup_iar.o [1]
+_call_main             0x0020053d         Code  Gb  cmain.o [4]
+_exit                  0x00200555         Code  Gb  cexit.o [4]
+_main                  0x00200547         Code  Gb  cmain.o [4]
+bspLedClear            0x00200467   0x10  Code  Gb  bsp_led.o [1]
+bspLedGet              0x00200459    0xe  Code  Gb  bsp_led.o [1]
+bspLedInit             0x00200431   0x16  Code  Gb  bsp_led.o [1]
+bspLedSet              0x00200447   0x12  Code  Gb  bsp_led.o [1]
+bspLedToggle           0x00200477   0x24  Code  Gb  bsp_led.o [1]
+dummy_stack            0x20007800    0x4  Data  Lc  startup_iar.o [1]
+exit                   0x0020054f    0x4  Code  Gb  exit.o [3]
+g_pui32IOCPortAOverrideReg
+                       0x00200574   0x20  Data  Lc  ioc.o [1]
+g_pui32IOCPortBOverrideReg
+                       0x00200594   0x20  Data  Lc  ioc.o [1]
+g_pui32IOCPortCOverrideReg
+                       0x002005b4   0x20  Data  Lc  ioc.o [1]
+g_pui32IOCPortDOverrideReg
+                       0x002005d4   0x20  Data  Lc  ioc.o [1]
+main                   0x002004a1   0x44  Code  Gb  leds_example.o [1]
+uDMAErrIntHandler      0x00200521    0x2  Code  Wk  startup_iar.o [1]
+uDMAIntHandler         0x00200521    0x2  Code  Wk  startup_iar.o [1]
+
+
+[1] = C:\Texas Instruments\Z-Stack Home 1.2.0\Projects\zstack\bsp\srf06eb_cc2538\examples\leds\projects\iar\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+    900 bytes of readonly  code memory
+    636 bytes of readonly  data memory
+  2 048 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

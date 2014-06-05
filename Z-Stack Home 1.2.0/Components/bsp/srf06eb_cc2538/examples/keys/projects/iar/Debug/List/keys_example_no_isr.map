@@ -1,0 +1,359 @@
+###############################################################################
+#
+# IAR ELF Linker V7.10.3.6832/W32 for ARM                 03/Apr/2014  19:57:53
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\bin\iar\keys_example_no_isr.out
+#    Map file     =  
+#        D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\List\keys_example_no_isr.map
+#    Command line =  
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\adc.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\bsp.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\bsp_key.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\bsp_led.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\cpu.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\debug.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\flash.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\gpio.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\gptimer.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\i2c.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\interrupt.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\io_pin_int.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\ioc.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\keys_example_no_isr.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\sleepmode.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\ssi.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\startup_iar.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\sys_ctrl.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\systick.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\uart.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\udma.o"
+#        "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj\watchdog.o"
+#        -o "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\bin\iar\keys_example_no_isr.out"
+#        --map "D:\DOCUMENT\HK8\Luan Van Tot
+#        Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\List\keys_example_no_isr.map"
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.0\arm\config\linker\TexasInstruments\cx2538xf53.icf" --semihosting
+#        --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00200000 { ro section .intvec };
+"A2":  place at start of [0x0027ffd4-0x0027ffdf] { ro section .flashcca };
+"P1":  place in [from 0x00200000 to 0x0027ffd3] { ro };
+"A3":  place at start of [0x20004000-0x20007fff] { section VTABLE };
+"P2":  place in [from 0x20004000 to 0x20007fff] { rw, block HEAP };
+"A4":  place at end of [0x20004000-0x20007fff] { block CSTACK };
+
+  Section          Kind        Address    Size  Object
+  -------          ----        -------    ----  ------
+"A1":                                    0x100
+  .intvec          const    0x00200000   0x100  startup_iar.o [1]
+                          - 0x00200100   0x100
+
+"P1":                                   0x13c4
+  .text            ro code  0x00200100   0x460  io_pin_int.o [1]
+  .text            ro code  0x00200560   0x144  interrupt.o [1]
+  .text            ro code  0x002006a4   0x330  gpio.o [1]
+  .text            ro code  0x002009d4    0x10  cpu.o [1]
+  .text            ro code  0x002009e4     0x2  debug.o [1]
+  .text            ro code  0x002009e6    0x22  zero_init3.o [4]
+  .text            ro code  0x00200a08   0x108  ioc.o [1]
+  .text            ro code  0x00200b10   0x34a  bsp_key.o [1]
+  .text            ro code  0x00200e5c   0x174  bsp.o [1]
+  .text            ro code  0x00200fd0   0x11c  sys_ctrl.o [1]
+  .rodata          const    0x002010ec    0x7c  interrupt.o [1]
+  .rodata          const    0x00201168    0x7c  sys_ctrl.o [1]
+  .rodata          const    0x002011e4    0x78  gpio.o [1]
+  .rodata          const    0x0020125c    0x78  ioc.o [1]
+  .text            ro code  0x002012d4    0x64  keys_example_no_isr.o [1]
+  .text            ro code  0x00201338    0x28  bsp_led.o [1]
+  .text            ro code  0x00201360    0x3e  startup_iar.o [1]
+  .text            ro code  0x0020139e     0xc  cstartup_M.o [4]
+  .text            ro code  0x002013ac    0x1a  cmain.o [4]
+  .text            ro code  0x002013c6     0x4  low_level_init.o [3]
+  .text            ro code  0x002013cc    0x28  data_init.o [4]
+  .text            ro code  0x002013f4     0x4  exit.o [3]
+  .text            ro code  0x002013f8     0xa  cexit.o [4]
+  .text            ro code  0x00201404    0x14  exit.o [5]
+  .iar.init_table  const    0x00201418    0x18  - Linker created -
+  .rodata          const    0x00201430    0x20  ioc.o [1]
+  .rodata          const    0x00201450    0x20  ioc.o [1]
+  .rodata          const    0x00201470    0x20  ioc.o [1]
+  .rodata          const    0x00201490    0x20  ioc.o [1]
+  .rodata          const    0x002014b0    0x14  interrupt.o [1]
+  .rodata          const    0x002014c4     0x0  zero_init3.o [4]
+                          - 0x002014c4  0x13c4
+
+"A2":                                      0xc
+  .flashcca        const    0x0027ffd4     0xc  startup_iar.o [1]
+                          - 0x0027ffe0     0xc
+
+"A3":                                    0x100
+  VTABLE           zero     0x20004000   0x100  interrupt.o [1]
+                          - 0x20004100   0x100
+
+"P2":                                     0xb0
+  .bss             zero     0x20004100    0x20  io_pin_int.o [1]
+  .bss             zero     0x20004120    0x20  io_pin_int.o [1]
+  .bss             zero     0x20004140    0x20  io_pin_int.o [1]
+  .bss             zero     0x20004160    0x20  io_pin_int.o [1]
+  .bss             zero     0x20004180    0x14  bsp_key.o [1]
+  .bss             zero     0x20004194     0x4  bsp_key.o [1]
+  .bss             zero     0x20004198     0x4  bsp_key.o [1]
+  .bss             zero     0x2000419c     0x4  bsp_key.o [1]
+  .bss             zero     0x200041a0     0x4  io_pin_int.o [1]
+  .bss             zero     0x200041a4     0x4  io_pin_int.o [1]
+  .bss             zero     0x200041a8     0x4  io_pin_int.o [1]
+  .bss             zero     0x200041ac     0x4  io_pin_int.o [1]
+                          - 0x200041b0    0xb0
+
+"A4":                                    0x800
+  CSTACK                    0x20007800   0x800  <Block>
+    .stack         uninit   0x20007800     0x4  startup_iar.o [1]
+    CSTACK         uninit   0x20007804   0x7fc  <Block tail>
+                          - 0x20008000   0x800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    2 destination ranges, total size 0x1b0:
+          0x20004000  0x100
+          0x20004100   0xb0
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+D:\DOCUMENT\HK8\Luan Van Tot Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj: [1]
+    bsp.o                      372
+    bsp_key.o                  842                32
+    bsp_led.o                   40
+    cpu.o                       16
+    debug.o                      2
+    gpio.o                     816      120
+    interrupt.o                324      144      256
+    io_pin_int.o             1 120               144
+    ioc.o                      264      248
+    keys_example_no_isr.o      100
+    startup_iar.o               62      268        4
+    sys_ctrl.o                 284      124
+    ------------------------------------------------
+    Total:                   4 242      904      436
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+rt7M_tl.a: [4]
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    zero_init3.o                34
+    ------------------------------------------------
+    Total:                     122
+
+shb_l.a: [5]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                         8
+    Linker created                       24    2 044
+----------------------------------------------------
+    Grand Total:             4 400      928    2 480
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x002013ad         Code  Gb  cmain.o [4]
+ADCIntHandler           0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+AESIntHandler           0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+CPUcpsid                0x002009d5    0x8  Code  Gb  cpu.o [1]
+CPUcpsie                0x002009dd    0x8  Code  Gb  cpu.o [1]
+CSTACK$$Base            0x20007800          --   Gb  - Linker created -
+CSTACK$$Limit           0x20008000          --   Gb  - Linker created -
+CompIntHandler          0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+FaultISR                0x0020139b    0x2  Code  Lc  startup_iar.o [1]
+FlashIntHandler         0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+GPIOAIntHandler         0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+GPIOBIntHandler         0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+GPIOBaseValid           0x002006a5   0x2a  Code  Lc  gpio.o [1]
+GPIOCIntHandler         0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+GPIODIntHandler         0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+GPIODirModeSet          0x0020071d   0x74  Code  Gb  gpio.o [1]
+GPIOGetIntNumber        0x002006cf   0x4e  Code  Gb  gpio.o [1]
+GPIOIntTypeSet          0x00200791   0x94  Code  Gb  gpio.o [1]
+GPIOPinIntClear         0x002008b1   0x24  Code  Gb  gpio.o [1]
+GPIOPinIntDisable       0x00200853   0x2e  Code  Gb  gpio.o [1]
+GPIOPinIntEnable        0x00200825   0x2e  Code  Gb  gpio.o [1]
+GPIOPinIntStatus        0x00200881   0x30  Code  Gb  gpio.o [1]
+GPIOPinRead             0x00200909   0x24  Code  Gb  gpio.o [1]
+GPIOPinTypeGPIOInput    0x00200955   0x36  Code  Gb  gpio.o [1]
+GPIOPinTypeGPIOOutput   0x0020098b   0x36  Code  Gb  gpio.o [1]
+GPIOPinWrite            0x0020092d   0x28  Code  Gb  gpio.o [1]
+GPIOPortIntRegister     0x002008d5   0x34  Code  Gb  gpio.o [1]
+I2CIntHandler           0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+IOCPadConfigSet         0x00200a09   0xda  Code  Gb  ioc.o [1]
+IcePickIntHandler       0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+IntAltMapIsEnabled      0x00200677   0x10  Code  Gb  interrupt.o [1]
+IntDefaultHandler       0x0020139d    0x2  Code  Lc  startup_iar.o [1]
+IntEnable               0x002005fd   0x7a  Code  Gb  interrupt.o [1]
+IntMasterDisable        0x00200575   0x14  Code  Gb  interrupt.o [1]
+IntMasterEnable         0x00200561   0x14  Code  Gb  interrupt.o [1]
+IntRegister             0x00200589   0x74  Code  Gb  interrupt.o [1]
+MacTimerIntHandler      0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+NmiISR                  0x00201399    0x2  Code  Lc  startup_iar.o [1]
+PKAIntHandler           0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+PendSVIntHandler        0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+RFCoreErrIntHandler     0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+RFCoreTxIntHandler      0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+Region$$Table$$Base     0x00201418          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00201430          --   Gb  - Linker created -
+ResetISR                0x00201361   0x28  Code  Lc  startup_iar.o [1]
+SSI0IntHandler          0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+SSI1IntHandler          0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+STACK_TOP {Abs}         0x20008000          --   Gb  command line/config [2]
+SleepModeIntHandler     0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+SysCtrlClockSet         0x00200fd1   0xbe  Code  Gb  sys_ctrl.o [1]
+SysCtrlDelay            0x002010d5    0x8  Code  Gb  sys_ctrl.o [1]
+SysCtrlIOClockSet       0x0020108f   0x46  Code  Gb  sys_ctrl.o [1]
+SysTickIntHandler       0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+Timer0AIntHandler       0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+Timer0BIntHandler       0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+Timer1AIntHandler       0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+Timer1BIntHandler       0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+Timer2AIntHandler       0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+Timer2BIntHandler       0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+Timer3AIntHandler       0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+Timer3BIntHandler       0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+UART0IntHandler         0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+UART1IntHandler         0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+USBIntHandler           0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+WatchdogIntHandler      0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+__cca                   0x0027ffd4    0xc  Data  Gb  startup_iar.o [1]
+__cmain                 0x002013ad         Code  Gb  cmain.o [4]
+__error__               0x002009e5    0x2  Code  Gb  debug.o [1]
+__exit                  0x00201405   0x14  Code  Gb  exit.o [5]
+__iar_data_init3        0x002013cd   0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x0020139f         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x002009e7   0x22  Code  Gb  zero_init3.o [4]
+__low_level_init        0x002013c7    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00200000  0x100  Data  Gb  startup_iar.o [1]
+_call_main              0x002013b9         Code  Gb  cmain.o [4]
+_exit                   0x002013f9         Code  Gb  cexit.o [4]
+_main                   0x002013c3         Code  Gb  cmain.o [4]
+bspInit                 0x00200e5d  0x148  Code  Gb  bsp.o [1]
+bspKeyDirPushedISR      0x00200cb9   0x98  Code  Lc  bsp_key.o [1]
+bspKeyInit              0x00200b11   0x9a  Code  Gb  bsp_key.o [1]
+bspKeyIntDisabledMask   0x20004198    0x4  Data  Lc  bsp_key.o [1]
+bspKeyPushed            0x00200bab  0x10e  Code  Gb  bsp_key.o [1]
+bspKeySelPushedISR      0x00200d51   0x62  Code  Lc  bsp_key.o [1]
+bspKeyTimerDisable      0x00200e1f    0xe  Code  Lc  bsp_key.o [1]
+bspKeyTimerEnable       0x00200dfb   0x24  Code  Lc  bsp_key.o [1]
+bspKeyTimerISR          0x00200db5   0x46  Code  Lc  bsp_key.o [1]
+bspKeyTimerIntRegister  0x00200e49   0x12  Code  Lc  bsp_key.o [1]
+bspKeysIsrTable         0x20004180   0x14  Data  Lc  bsp_key.o [1]
+bspKeysPressed          0x20004194    0x4  Data  Lc  bsp_key.o [1]
+bspLedToggle            0x00201339   0x24  Code  Gb  bsp_led.o [1]
+dummy_stack             0x20007800    0x4  Data  Lc  startup_iar.o [1]
+exit                    0x002013f5    0x4  Code  Gb  exit.o [3]
+g_pfnRAMVectors         0x20004000  0x100  Data  Lc  interrupt.o [1]
+g_pui32EnRegs           0x002014b0   0x14  Data  Lc  interrupt.o [1]
+g_pui32IOCPortAOverrideReg
+                        0x00201430   0x20  Data  Lc  ioc.o [1]
+g_pui32IOCPortBOverrideReg
+                        0x00201450   0x20  Data  Lc  ioc.o [1]
+g_pui32IOCPortCOverrideReg
+                        0x00201470   0x20  Data  Lc  ioc.o [1]
+g_pui32IOCPortDOverrideReg
+                        0x00201490   0x20  Data  Lc  ioc.o [1]
+ioPinIntRegister        0x00200101  0x160  Code  Gb  io_pin_int.o [1]
+ioPortAIsr              0x00200261   0xb2  Code  Lc  io_pin_int.o [1]
+ioPortBIsr              0x00200315   0xb2  Code  Lc  io_pin_int.o [1]
+ioPortCIsr              0x002003c9   0xb2  Code  Lc  io_pin_int.o [1]
+ioPortDIsr              0x0020047d   0xb2  Code  Lc  io_pin_int.o [1]
+main                    0x002012d5   0x64  Code  Gb  keys_example_no_isr.o [1]
+pfnPortAIsr             0x20004100   0x20  Data  Lc  io_pin_int.o [1]
+pfnPortBIsr             0x20004120   0x20  Data  Lc  io_pin_int.o [1]
+pfnPortCIsr             0x20004140   0x20  Data  Lc  io_pin_int.o [1]
+pfnPortDIsr             0x20004160   0x20  Data  Lc  io_pin_int.o [1]
+uDMAErrIntHandler       0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+uDMAIntHandler          0x0020139d    0x2  Code  Wk  startup_iar.o [1]
+ui8BspKeyMode           0x2000419c    0x4  Data  Lc  bsp_key.o [1]
+ui8PortAPinHasIsr       0x200041a0    0x4  Data  Lc  io_pin_int.o [1]
+ui8PortBPinHasIsr       0x200041a4    0x4  Data  Lc  io_pin_int.o [1]
+ui8PortCPinHasIsr       0x200041a8    0x4  Data  Lc  io_pin_int.o [1]
+ui8PortDPinHasIsr       0x200041ac    0x4  Data  Lc  io_pin_int.o [1]
+
+
+[1] = D:\DOCUMENT\HK8\Luan Van Tot Nghiep\cc3580\swrc271a\cc2538_foundation_firmware_1_0_1_0\bsp\srf06eb_cc2538\examples\keys\projects\iar\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  4 400 bytes of readonly  code memory
+    928 bytes of readonly  data memory
+  2 480 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
